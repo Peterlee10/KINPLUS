@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-shadow: 0px 0px 10px 2px green;
+}
+.left-container{
+    padding: 40px 30px 20px;
+    text-align: center;
+    width: 100%;
+}
+.left-container diprella{
+    padding: 100px;
+    text-align: left;
+}
+.left-container h1{
+    margin: 10px 0;
+    color: rgba(66, 168, 66, 0.784);
+
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+.logos logo{
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.logoo{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0.3px;
+}
+.logo:hover{
+    background-color: green;
+}
+.left-container p{
+    font-size: 13px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: rgb(132, 124, 124);
+}
+.left-container .inputs{
+    position: relative;
+    margin: 10px;
+    width: 222px;
+}
+input{
+    width: 100%;
+    padding: 5px 30px;
+    border: none;
+    justify-content: center;
+    
+}
+.left-container .placeholder{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+}
+.fontawesome{
+    position: absolute;
+    font-size: 15px;
+    top: 2.5px;
+    margin: 1.5px 10px;
+    padding-right: 5px;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.sign-in a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    border-bottom: 2px solid green;
+}
+.sign-in a:hover{
+    color: skyblue;
+}
+.sign-in button{
+    background-color: rgba(pink, 168, 66, 0.784);
+    padding: 10px 45px;
+    margin-top: 15px;
+    /* border: none; */
+    border-radius: 20px;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+}
+.sign-in button:hover{
+    background-color: skyblue;
+}
+.right-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 60%;
+    padding: 100px 30px;
+    background-color: rgba(66, 168, 68, 0.784);
+    border-radius: 0 10px 10px 0;
+}
+.right-container h1{
+    font-size: 30px;
+    color: white;
+}
+.right-container p{
+    font-size: 15px;
+    color: white;
+}
+.right-container a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.right-container a:hover{
+    background-color: skyblue;
+}
